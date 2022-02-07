@@ -1,0 +1,5 @@
+1*. Configure database (Resources/application.properties )
+2*. Create Model
+3*. Create ModelRepository[Interface]()
+4*. Create ModelService
+    ##
