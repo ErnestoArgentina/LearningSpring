@@ -25,7 +25,7 @@ public class ProductService {
     public Product getProductById(int id){
         return repository.findById(id).orElse(null);
     }
-    public Product getAllProductByName(String name){
+    public Product getProductByName(String name){
         return repository.findByName(name).orElse(null);
     }
     public String deleteProduct(int id){
